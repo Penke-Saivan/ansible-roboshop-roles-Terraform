@@ -6,8 +6,8 @@
   - python3
   - gcc
   - python3-devel
-  - gcc-c++
-  - make
+  # - gcc-c++
+  # - make
 
 - name: install dependencies
   ansible.builtin.pip:
